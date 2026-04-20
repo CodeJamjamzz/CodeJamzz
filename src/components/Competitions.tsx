@@ -56,7 +56,8 @@ const Competitions = () => {
                 </div>
 
                 {comp.image && (
-                  <div className="mb-6 rounded-2xl overflow-hidden border border-white/10 aspect-video">
+                  /* Changed aspect-video to aspect-[3/2] or aspect-[4/3] */
+                  <div className="mb-6 rounded-2xl overflow-hidden border border-white/10 aspect-[3/2]"> 
                     <img 
                       src={comp.image} 
                       alt={comp.name} 

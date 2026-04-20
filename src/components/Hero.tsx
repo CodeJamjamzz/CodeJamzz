@@ -37,9 +37,9 @@ const Hero = () => {
             <div className="w-40 h-40 md:w-56 md:h-56 rounded-full p-1.5 bg-gradient-to-br from-neon-purple to-neon-blue relative z-10 overflow-hidden shadow-2xl shadow-neon-purple/20">
               <div className="w-full h-full rounded-full overflow-hidden bg-dark-bg border-2 border-white/10">
                 <img 
-                  src="https://picsum.photos/seed/jamiel/400/400" 
+                  src={personalInfo.profileImage}
                   alt={personalInfo.name}
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                  className="w-full h-full object-cover hover:grayscale transition-all duration-700"
                   referrerPolicy="no-referrer"
                 />
               </div>
@@ -102,13 +102,13 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      <motion.div 
+      {/* <motion.div 
         className="absolute bottom-10 left-1/2 -translate-x-1/2 text-slate-500"
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}
       >
         <ChevronDown className="w-8 h-8" />
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 };

@@ -72,17 +72,17 @@ const Projects = () => {
                   <img 
                     src={project.image} 
                     alt={project.title}
-                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                    className="w-full h-full object-cover hover:grayscale-1 group-hover:scale-105 transition-all duration-700"
                     referrerPolicy="no-referrer"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-dark-bg via-transparent to-transparent opacity-60" />
                   
                   {/* Category Badge on Image */}
-                  <div className="absolute top-4 left-4">
-                    <span className="px-3 py-1 rounded-full glass border-white/20 text-[9px] font-bold text-white uppercase tracking-widest backdrop-blur-md">
+                  {/* <div className="absolute top-4 left-4">
+                    <span className="px-3 py-1 rounded-full glass border-white/20 text-[9px] font-bold text-black uppercase tracking-widest">
                       {project.category}
                     </span>
-                  </div>
+                  </div> */}
 
                   {/* Quick Links on Image */}
                   <div className="absolute top-4 right-4 flex gap-2">
@@ -92,7 +92,7 @@ const Projects = () => {
                       href={project.github} 
                       target="_blank" 
                       rel="noreferrer" 
-                      className="w-8 h-8 rounded-full glass border-white/20 flex items-center justify-center text-white hover:bg-neon-purple/20 transition-colors backdrop-blur-md"
+                      className="w-8 h-8 rounded-full glass border-black/10 flex items-center justify-center text-black/70 hover:bg-neon-purple/20 transition-colors backdrop-blur-md"
                     >
                       <Github className="w-4 h-4" />
                     </motion.a>
@@ -102,7 +102,7 @@ const Projects = () => {
                       href={project.demo} 
                       target="_blank" 
                       rel="noreferrer" 
-                      className="w-8 h-8 rounded-full glass border-white/20 flex items-center justify-center text-white hover:bg-neon-blue/20 transition-colors backdrop-blur-md"
+                      className="w-8 h-8 rounded-full glass border-black/10 flex items-center justify-center text-black/70 hover:bg-neon-blue/20 transition-colors backdrop-blur-md"
                     >
                       <ExternalLink className="w-4 h-4" />
                     </motion.a>
@@ -111,7 +111,7 @@ const Projects = () => {
 
                 <div className="p-6 flex flex-col flex-grow">
                   <div className="mb-4">
-                    <h3 className="text-xl font-bold text-white group-hover:text-neon-cyan transition-colors mb-1 line-clamp-1">
+                    <h3 className="text-xl font-bold text-white group-hover:text-neon-cyan transition-colors mb-1">
                       {project.title}
                     </h3>
                     <p className="text-neon-purple text-[10px] font-bold uppercase tracking-widest">{project.subtitle}</p>
@@ -124,7 +124,7 @@ const Projects = () => {
                       </div>
                       <div>
                         <p className="text-slate-500 font-bold uppercase text-[8px] tracking-widest mb-0.5">Challenge</p>
-                        <p className="text-slate-300 text-xs leading-relaxed line-clamp-2">{project.problem}</p>
+                        <p className="text-slate-300 text-xs leading-relaxed">{project.problem}</p>
                       </div>
                     </div>
 
@@ -134,7 +134,7 @@ const Projects = () => {
                       </div>
                       <div>
                         <p className="text-slate-500 font-bold uppercase text-[8px] tracking-widest mb-0.5">Solution</p>
-                        <p className="text-slate-300 text-xs leading-relaxed line-clamp-2">{project.approach}</p>
+                        <p className="text-slate-300 text-xs leading-relaxed">{project.approach}</p>
                       </div>
                     </div>
 
@@ -144,7 +144,7 @@ const Projects = () => {
                       </div>
                       <div>
                         <p className="text-slate-500 font-bold uppercase text-[8px] tracking-widest mb-0.5">Outcome</p>
-                        <p className="text-neon-cyan text-xs font-bold line-clamp-1">{project.results}</p>
+                        <p className="text-neon-cyan text-xs font-bold">{project.results}</p>
                       </div>
                     </div>
                   </div>
@@ -159,7 +159,7 @@ const Projects = () => {
                     >
                       <span>Case Study</span>
                       <div className="w-6 h-6 rounded-full bg-white/5 flex items-center justify-center group-hover/link:bg-neon-cyan/20 transition-colors">
-                        <ExternalLink className="w-3 h-3 text-neon-cyan group-hover/link:translate-x-1 transition-transform" />
+                        <ExternalLink className="w-3 h-3 text-neon-cyan transition-transform" />
                       </div>
                     </motion.a>
                   </div>

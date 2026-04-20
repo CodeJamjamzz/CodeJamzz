@@ -1,21 +1,40 @@
 import { Code2, Database, Cloud, Cpu, Brain, Github, Linkedin, Mail, ExternalLink, Terminal, Trophy, Award, BookOpen, GraduationCap, Lightbulb, Rocket, Globe } from 'lucide-react';
+import profilePic from './images/jamielpicture.jpg';
+import AiEngineeringCertificate from "./images/certificates/ai-engineering-certificate.jpg"
+import elementsofai from "./images/certificates/Elements of AI.jpg"
+import agenticworkflow from "./images/certificates/agentic-workflow.jpg"
+import aws from "./images/certificates/aws.jpg"
+import buildingApiPython from "./images/certificates/building-api-python.jpg"
+import java from "./images/certificates/java-oop.jpg"
+import python from "./images/certificates/python-programming-fundamentals.jpg"
+import cProgramming from "./images/certificates/c-programming.jpg"
+import AiFundaments from "./images/certificates/ai-fundamentals.jpg"
+import iAcademy from "./images/competitions/iAcademy.jpg"
+import CebIHacks from "./images/competitions/cebihacks.jpg"
+import ceview from "./images/projects/ceview.png"
+import medsync from "./images/projects/medsync.jpg"
+import pocketclass from "./images/projects/pocketclass.png"
+import regit from "./images/projects/regit.png"
+import quetek from "./images/projects/quetek.png"
+import codebased from "./images/projects/codebased.jpg"
+import univercit from "./images/projects/univercit.png"
 
 export const personalInfo = {
   name: "Jamiel Kyne R. Pinca",
-  role: "Aspiring AI Engineer",
+  role: "Aspiring AI & Software Engineer",
   location: "Cebu City, Philippines",
-  tagline: "passionate about innovating and building advances ai driven systems.",
+  tagline: "Passionate about innovating and building advances ai driven systems.",
   subheading: "I DO COMPETITIVE PROGRAMMING",
   about: "A passionate innovator with a strong focus on AI and software engineering. Dedicated to creating solutions that tackle real-world problems. Thrives on turning ideas into practical applications that deliver meaningful impact.",
   currentFocus: "AI-driven software solutions and autonomous systems to tackle complex real-world challenges and streamline decision-making processes",
   email: "jamielkynepinca@gmail.com",
   phone: "+63 994 260 6462",
-  github: "https://github.com",
-  linkedin: "https://linkedin.com",
-  facebook: "https://facebook.com",
-  resume: "https://example.com/resume.pdf",
-  datacamp: "https://www.datacamp.com/portfolio/jamielkyne",
-  profileImage: "https://storage.googleapis.com/m-infra.appspot.com/public/res/antigravity/jamiel_profile.jpg"
+  github: "https://github.com/CodeJamjamzz",
+  linkedin: "https://www.linkedin.com/in/jamiel-kyne-r-pinca-92b045342/",
+  facebook: "https://www.facebook.com/jamielkyne.r.pinca/",
+  resume: "https://drive.google.com/file/d/1JgoDbOa4pUGwDgosloaJcBt82PeaVXR8/view?usp=sharing",
+  datacamp: "https://www.datacamp.com/portfolio/CodeJamzz",
+  profileImage: profilePic
 };
 
 export const projects = [
@@ -28,9 +47,9 @@ export const projects = [
     dataset: "Travel & Tourism Sentiment Data",
     approach: "Designed scalable backend and AI system architecture; built LLM framework and data pipeline for context-aware insights.",
     results: "Improved campaign targeting efficiency through automated AI workflows.",
-    github: "https://github.com",
-    demo: "https://demo.com",
-    image: "https://picsum.photos/seed/ceview/800/600"
+    github: "https://drive.google.com/file/d/1VnCDXGoXxHGsqdU48yLB9cV-r79p08X6/view?usp=sharing",
+    demo: "https://drive.google.com/file/d/1VnCDXGoXxHGsqdU48yLB9cV-r79p08X6/view?usp=sharing",
+    image: ceview
   },
   {
     id: 2,
@@ -41,9 +60,9 @@ export const projects = [
     dataset: "Curated Educational Content & Student Interaction Logs",
     approach: "Designed offline-first AI system with 0% internet dependency; built context-aware AI pipelines.",
     results: "Improved learning effectiveness by 25% and increased user engagement by 20%.",
-    github: "https://github.com",
-    demo: "https://demo.com",
-    image: "https://picsum.photos/seed/pocketclass/800/600"
+    github: "https://www.youtube.com/watch?v=5PT7hGa-Mbs",
+    demo: "https://www.youtube.com/watch?v=5PT7hGa-Mbs",
+    image: pocketclass
   },
   {
     id: 3,
@@ -54,9 +73,9 @@ export const projects = [
     dataset: "IoT Sensor Streams & Patient Records",
     approach: "Built full-stack system; integrated IoT devices for real-time data transmission; contributed to system design.",
     results: "Functional healthcare prototype with real-time monitoring capabilities.",
-    github: "https://github.com",
-    demo: "https://demo.com",
-    image: "https://picsum.photos/seed/medsync/800/600"
+    github: "https://drive.google.com/file/d/1DBk1CFnpmNWetp21Qg4e2jBFNeCNkUDy/view?usp=sharing",
+    demo: "https://drive.google.com/file/d/1DBk1CFnpmNWetp21Qg4e2jBFNeCNkUDy/view?usp=sharing",
+    image: medsync
   },
   {
     id: 4,
@@ -66,9 +85,9 @@ export const projects = [
     problem: "Organizations struggled to efficiently track attendees and event participation.",
     approach: "Built a user-friendly Android app using Java and Android Studio; designed frontend interfaces and overall project architecture.",
     results: "Streamlined attendee tracking, reducing manual check-ins by 40%.",
-    github: "https://github.com",
-    demo: "https://demo.com",
-    image: "https://picsum.photos/seed/regit/800/600"
+    github: "https://github.com/CodeJamjamzz/OOP227_CAPSTONE",
+    demo: "https://github.com/CodeJamjamzz/OOP227_CAPSTONE",
+    image: regit
   },
   {
     id: 5,
@@ -78,21 +97,21 @@ export const projects = [
     problem: "Service delays due to inefficient queue management in organizations.",
     approach: "Developed a Kotlin-based Android app handling both frontend and backend workflows to optimize queue flow.",
     results: "Improved service efficiency and reduced average wait time by 30%.",
-    github: "https://github.com",
-    demo: "https://demo.com",
-    image: "https://picsum.photos/seed/quetek/800/600"
+    github: "https://github.com/MRhagz/QueTek",
+    demo: "https://github.com/MRhagz/QueTek",
+    image: quetek
   },
   {
     id: 6,
     category: "AI / Machine Learning",
-    title: "RepoBased – RAG Chatbot Assistant",
+    title: "CodeBased – RAG Chatbot Assistant",
     subtitle: "School/Capstone Project",
     problem: "Developers faced difficulty managing coding repositories and retrieving relevant code information quickly.",
     approach: "Built React frontend with Spring Boot and PostgreSQL backend; integrated AI features for intelligent repository management.",
     results: "Increased developer productivity by 20% and reduced time spent searching code by 35%.",
-    github: "https://github.com",
-    demo: "https://demo.com",
-    image: "https://picsum.photos/seed/repobased/800/600"
+    github: "https://github.com/jewican/TeamJamGwapo",
+    demo: "https://github.com/jewican/TeamJamGwapo",
+    image: codebased
   },
   {
     id: 7,
@@ -102,9 +121,9 @@ export const projects = [
     problem: "Students lacked easy access to course insights and study materials.",
     approach: "Created a Python Django app supporting both frontend and backend functions for course exploration.",
     results: "Enhanced student engagement with learning resources by 25% and simplified course navigation.",
-    github: "https://github.com",
-    demo: "https://demo.com",
-    image: "https://picsum.photos/seed/univercit/800/600"
+    github: "https://github.com/Smoll05/CSIT327_F1-UniverCIT",
+    demo: "https://github.com/Smoll05/CSIT327_F1-UniverCIT",
+    image: univercit
   }
 ];
 
@@ -112,40 +131,40 @@ export const competitions = [
   {
     id: 1,
     name: "MCIA Cebi-Hacks Hackathon 2026",
-    description: "Developed 'Ceview', a targeted marketing AI system for the Mactan-Cebu International Airport.",
+    description: "1st Runner Up, MCIA Cebu-Hacks Hackathon 2026 — As Team Leader of A.I.Con, I led the design, architecture, and overall AI workflow of our project “Ceview,” ensuring the system effectively addressed targeted marketing challenges for Mactan-Cebu International Airport. My role focused on integrating AI into the system, defining the end-to-end pipeline, and selecting appropriate frameworks and technologies to build a scalable and efficient backend.",
     role: "Team Leader",
     team: "A.I.Con",
     project: "Ceview",
     result: "1st Runner Up",
     tech: ["LLMs", "Data Pipelines", "Scalable Backend"],
     icon: Trophy,
-    link: "https://linkedin.com/posts/example1",
-    image: "https://picsum.photos/seed/cebihacks/800/400"
+    link: "https://www.facebook.com/share/p/18X59Jgx1y/",
+    image: CebIHacks
   },
   {
     id: 2,
     name: "iAcademy Code the Future Hackathon 2026",
-    description: "Developed 'PocketClass', an offline-first AI learning system.",
+    description: "2nd Place, iAcademy Code the Future Hackathon 2026 — As Team Leader of A.I.Con, I led the design, architecture, and AI workflow of “PocketClass,” an offline-first learning system built to deliver adaptive and context-aware educational experiences. My role focused on integrating AI into the system, defining the end-to-end pipeline, and selecting the appropriate frameworks and technologies to ensure efficient offline functionality and scalable system design.",
     role: "Team Leader",
     team: "A.I.Con",
     project: "PocketClass",
     result: "2nd Place",
     tech: ["Offline AI", "Context-aware Pipelines", "Adaptive Workflows"],
     icon: Award,
-    link: "https://linkedin.com/posts/example2",
-    image: "https://picsum.photos/seed/iacademy/800/400"
+    link: "https://www.facebook.com/share/p/1AwS7BkxbE/",
+    image: iAcademy
   }
 ];
 
 export const certifications = [
   {
     id: 1,
-    title: "Associate AI Engineer for Developers",
+    title: "AI Engineer for Developers Associate",
     issuer: "DataCamp",
-    date: "2025",
+    date: "2026",
     icon: Brain,
-    link: "https://datacamp.com/certificate/1",
-    image: "https://picsum.photos/seed/ai-eng/400/200"
+    link: "https://www.datacamp.com/certificate/AIEDA0012901247592",
+    image: AiEngineeringCertificate
   },
   {
     id: 2,
@@ -153,8 +172,8 @@ export const certifications = [
     issuer: "DataCamp",
     date: "2025",
     icon: Award,
-    link: "https://datacamp.com/certificate/2",
-    image: "https://picsum.photos/seed/ai-fund/400/200"
+    link: "https://www.datacamp.com/skill-verification/AIF0021209163243",
+    image: AiFundaments
   },
   {
     id: 3,
@@ -162,36 +181,64 @@ export const certifications = [
     issuer: "University of Helsinki",
     date: "2026",
     icon: Globe,
-    link: "https://elementsofai.com/certificate/3",
-    image: "https://picsum.photos/seed/helsinki/400/200"
+    link: "https://certificates.mooc.fi/validate/eethy391dti",
+    image: elementsofai
   },
   {
     id: 4,
     title: "Agentic Workflow",
     issuer: "Sololearn",
     date: "2026",
-    icon: Rocket,
-    link: "https://sololearn.com/certificate/4",
-    image: "https://picsum.photos/seed/agentic/400/200"
+    icon: Brain,
+    link: "https://www.sololearn.com/certificates/CC-OV05YJPI",
+    image: agenticworkflow
   },
   {
     id: 5,
-    title: "Java & C Programming",
+    title: "Java Object Oriented Programming",
     issuer: "CodeChum",
-    date: "2024 & 2025",
+    date: "2025",
     icon: Code2,
-    link: "https://codechum.com/certificate/5",
-    image: "https://picsum.photos/seed/java-c/400/200"
+    link: "https://citu.codechum.com/certificates/10052",
+    image: java
   },
   {
     id: 6,
-    title: "Python & JavaScript Essentials",
-    issuer: "Sololearn",
+    title: "C Programming",
+    issuer: "CodeChum",
     date: "2024",
+    icon: Code2,
+    link: "https://citu.codechum.com/certificates/834",
+    image: cProgramming
+  },
+  {
+    id: 7,
+    title: "Python Programming Fundamentals",
+    issuer: "DataCamp",
+    date: "2025",
+    icon: Code2,
+    link: "https://www.datacamp.com/statement-of-accomplishment/track/7c8e78eba93c50bde40318ca7c10d1946ce9ccff?raw=1",
+    image: python
+  },
+  {
+    id: 8,
+    title: "AWS Cloud Practicioner (CLF-CO2)",
+    issuer: "DataCamp",
+    date: "2025",
+    icon: Rocket,
+    link: "https://www.datacamp.com/statement-of-accomplishment/track/109df6bbf47af1278424924b70dc3567cba1e146?raw=1",
+    image: aws
+  },
+  {
+    id: 9,
+    title: "Buidling API in Python",
+    issuer: "DataCamp",
+    date: "2025",
     icon: Terminal,
-    link: "https://sololearn.com/certificate/6",
-    image: "https://picsum.photos/seed/python-js/400/200"
-  }
+    link: "https://www.datacamp.com/statement-of-accomplishment/track/713cbfe8510021a2f1077474a6861c024f077e67?raw=1",
+    image: buildingApiPython
+  },
+  
 ];
 
 export const skills = [
