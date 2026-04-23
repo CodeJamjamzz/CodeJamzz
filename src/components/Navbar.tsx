@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, Cpu } from 'lucide-react';
+import logo from "../images/codejamzz_logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +37,11 @@ const Navbar = () => {
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
         >
-          <Cpu className="w-8 h-8 text-neon-purple" />
+          <img 
+            src={logo} 
+            alt="CodeJamzz Logo" 
+            className="w-8 h-8 object-contain" 
+          />
           <span className="text-gradient">CodeJamzz</span>
         </motion.a>
 
