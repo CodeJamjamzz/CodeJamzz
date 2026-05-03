@@ -47,7 +47,7 @@ export const projects = [
     dataset: "Travel & Tourism Sentiment Data",
     approach: "Designed scalable backend and AI system architecture; built LLM framework and data pipeline for context-aware insights.",
     results: "Improved campaign targeting efficiency through automated AI workflows.",
-    github: "https://drive.google.com/file/d/1VnCDXGoXxHGsqdU48yLB9cV-r79p08X6/view?usp=sharing",
+    github: "https://github.com/CodeJamjamzz/CeView.git",
     demo: "https://drive.google.com/file/d/1VnCDXGoXxHGsqdU48yLB9cV-r79p08X6/view?usp=sharing",
     image: ceview
   },
@@ -73,7 +73,7 @@ export const projects = [
     dataset: "IoT Sensor Streams & Patient Records",
     approach: "Built full-stack system; integrated IoT devices for real-time data transmission; contributed to system design.",
     results: "Functional healthcare prototype with real-time monitoring capabilities.",
-    github: "https://drive.google.com/file/d/1DBk1CFnpmNWetp21Qg4e2jBFNeCNkUDy/view?usp=sharing",
+    github: "https://github.com/CodeJamjamzz/Automated_Pillbox.git",
     demo: "https://drive.google.com/file/d/1DBk1CFnpmNWetp21Qg4e2jBFNeCNkUDy/view?usp=sharing",
     image: medsync
   },
@@ -85,7 +85,7 @@ export const projects = [
     problem: "Organizations struggled to efficiently track attendees and event participation.",
     approach: "Built a user-friendly Android app using Java and Android Studio; designed frontend interfaces and overall project architecture.",
     results: "Streamlined attendee tracking, reducing manual check-ins by 40%.",
-    github: "https://github.com/CodeJamjamzz/OOP227_CAPSTONE",
+    github: "https://github.com/CodeJamjamzz/OOP227_CAPSTONE.git",
     demo: "https://github.com/CodeJamjamzz/OOP227_CAPSTONE",
     image: regit
   },
@@ -109,8 +109,8 @@ export const projects = [
     problem: "Developers faced difficulty managing coding repositories and retrieving relevant code information quickly.",
     approach: "Built React frontend with Spring Boot and PostgreSQL backend; integrated AI features for intelligent repository management.",
     results: "Increased developer productivity by 20% and reduced time spent searching code by 35%.",
-    github: "https://github.com/jewican/TeamJamGwapo",
-    demo: "https://github.com/jewican/TeamJamGwapo",
+    github: "https://gitshare.me/repo/51dafdd8-167a-4d37-914f-5981d86c7a2b",
+    demo: "https://gitshare.me/repo/51dafdd8-167a-4d37-914f-5981d86c7a2b",
     image: codebased
   },
   {
@@ -121,8 +121,8 @@ export const projects = [
     problem: "Students lacked easy access to course insights and study materials.",
     approach: "Created a Python Django app supporting both frontend and backend functions for course exploration.",
     results: "Enhanced student engagement with learning resources by 25% and simplified course navigation.",
-    github: "https://github.com/Smoll05/CSIT327_F1-UniverCIT",
-    demo: "https://github.com/Smoll05/CSIT327_F1-UniverCIT",
+    github: "https://github.com/CodeJamjamzz/_Univercit.git",
+    demo: "https://github.com/CodeJamjamzz/_Univercit.git",
     image: univercit
   }
 ];
