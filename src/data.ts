@@ -245,12 +245,12 @@ export const skills = [
   {
     category: "Languages",
     icon: Code2,
-    items: ["Python", "C", "C++", "Java", "JavaScript", "TypeScript", "Kotlin"]
+    items: ["Python", "C", "C#", "Java", "JavaScript", "TypeScript", "Kotlin"]
   },
   {
     category: "Frameworks",
     icon: Brain,
-    items: ["Django", "Spring Boot", "React", "TensorFlow", "FastAPI", "LangChain", "Scikit-Learn"]
+    items: ["Spring Boot", "React", "TensorFlow", "FastAPI", "LangChain", "Scikit-Learn", ".NET"]
   },
   {
     category: "Tools",
