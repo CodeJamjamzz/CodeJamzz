@@ -18,6 +18,9 @@ import regit from "./images/projects/regit.png"
 import quetek from "./images/projects/quetek.png"
 import codebased from "./images/projects/codebased.jpg"
 import univercit from "./images/projects/univercit.png"
+import cartoon_vae from "./images/projects/cartoon_vae_ai.png"
+import ml_healthcare from "./images/projects/ml_healthcare_ai.png"
+import wave_img from "./images/projects/wave.png"
 
 export const personalInfo = {
   name: "Jamiel Kyne R. Pinca",
@@ -33,19 +36,31 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/jamiel-kyne-r-pinca-92b045342/",
   facebook: "https://www.facebook.com/jamielkyne.r.pinca/",
   resume: "https://drive.google.com/file/d/1JgoDbOa4pUGwDgosloaJcBt82PeaVXR8/view?usp=sharing",
-  datacamp: "https://www.datacamp.com/portfolio/CodeJamzz",
   profileImage: profilePic
 };
 
 export const projects = [
   {
+    id: 8,
+    category: "AI / Machine Learning",
+    title: "Wave",
+    subtitle: "ASEAN AI Hackathon Project",
+    problem: "Need for intelligent workflow orchestration and automated task execution.",
+    dataset: "Various",
+    approach: "Designed and developed AI agent architecture using Django, PostgreSQL, LangChain, LangGraph, and LangSmith. Integrated AI agent functionalities and managed AI workflow strategies.",
+    results: "Improved agent reliability and performance through iterative optimization and RAG pipelines.",
+    github: "https://github.com/Fernsz1/Wave.git",
+    demo: "https://drive.google.com/file/d/1aI2r65CCUHviB0WCJ81fQnljsIf9Pg9N/view?usp=drive_link",
+    image: wave_img
+  },
+  {
     id: 1,
     category: "AI / Machine Learning",
     title: "Ceview",
-    subtitle: "CebiHacks Hackathon Project",
+    subtitle: "Research & CebiHacks Hackathon Project",
     problem: "Need for targeted marketing insights in the aviation and tourism industry.",
     dataset: "Travel & Tourism Sentiment Data",
-    approach: "Designed scalable backend and AI system architecture; built LLM framework and data pipeline for context-aware insights.",
+    approach: "Developed a fine-tuned customized BERT multi-classification model. Led the development of selective marketing algorithm and built three AI agents. Integrated into a FastAPI microservices architecture with RAG pipelines.",
     results: "Improved campaign targeting efficiency through automated AI workflows.",
     github: "https://github.com/CodeJamjamzz/CeView.git",
     demo: "https://drive.google.com/file/d/1VnCDXGoXxHGsqdU48yLB9cV-r79p08X6/view?usp=sharing",
@@ -57,12 +72,38 @@ export const projects = [
     title: "PocketClass",
     subtitle: "iAcademy Hackathon Project",
     problem: "Lack of accessible, high-quality educational tools in offline environments.",
-    dataset: "Curated Educational Content & Student Interaction Logs",
-    approach: "Designed offline-first AI system with 0% internet dependency; built context-aware AI pipelines.",
-    results: "Improved learning effectiveness by 25% and increased user engagement by 20%.",
+    dataset: "Curated Educational Content",
+    approach: "Led system architecture designing scalable offline-first components. Developed context-aware AI pipelines and engineered AI-driven workflows for adaptive learning using React Native, LangChain, and SQLite.",
+    results: "Improved learning effectiveness and increased accessibility for users in digitally underserved areas by 30%.",
     github: "https://www.youtube.com/watch?v=5PT7hGa-Mbs",
     demo: "https://www.youtube.com/watch?v=5PT7hGa-Mbs",
     image: pocketclass
+  },
+  {
+    id: 9,
+    category: "AI / Machine Learning",
+    title: "Cartoon VAE: Character Interpolation",
+    subtitle: "Personal Project",
+    problem: "Need for automated character generation and interpolation.",
+    dataset: "Cartoon Images",
+    approach: "Trained a deep learning VAE model to learn latent representations of cartoon characters using React, FastAPI, and TensorFlow Keras.",
+    results: "Built a Fullstack AI-powered system for character generation and latent space manipulation.",
+    github: "https://github.com/CodeJamjamzz/Cartoon_VAE_Project.git",
+    demo: "https://github.com/CodeJamjamzz/Cartoon_VAE_Project.git",
+    image: cartoon_vae
+  },
+  {
+    id: 10,
+    category: "AI / Machine Learning",
+    title: "Machine Learning Neural Network Projects",
+    subtitle: "Personal AI Training Work",
+    problem: "Healthcare prediction tasks like heart disease and diabetes risk classification.",
+    dataset: "Healthcare Data",
+    approach: "Developed and trained neural network models using TensorFlow Keras. Implemented full ML pipelines covering data preprocessing, model design, training, and evaluation.",
+    results: "Improved predictive accuracy and model reliability.",
+    github: "https://github.com/CodeJamjamzz/Diabetes_Risk_NN.git",
+    demo: "https://github.com/CodeJamjamzz/Heart_Disease_NN.git",
+    image: ml_healthcare
   },
   {
     id: 3,
@@ -245,31 +286,37 @@ export const skills = [
   {
     category: "Languages",
     icon: Code2,
-    items: ["Python", "C", "C#", "Java", "JavaScript", "TypeScript", "Kotlin"]
+    items: ["Python", "C", "C#", "Java", "JavaScript", "TypeScript"]
   },
   {
-    category: "Frameworks",
+    category: "Frameworks & Libraries",
     icon: Brain,
-    items: ["Spring Boot", "React", "TensorFlow", "FastAPI", "LangChain", "Scikit-Learn", ".NET"]
+    items: ["Spring Boot", "React", "React-Native", "NextJS", "Django", "TensorFlow Keras", "FastAPI", "LangChain", "LangGraph", "LangSmith", "Scikit-Learn"]
   },
   {
     category: "Tools",
     icon: Terminal,
-    items: ["Git/GitHub", "Docker", "Figma", "Canva", "VS Code", "PyCharm", "Postman"]
+    items: ["Git/GitHub", "Docker", "Figma", "Canva", "VS Code", "PyCharm", "Postman", "Antigravity", "Codex"]
   },
   {
     category: "Interests",
     icon: Lightbulb,
-    items: ["AI/ML", "Innovation", "Startups", "Tech for Social Impact", "Product Ideation"]
+    items: ["AI/ML", "Agentic Workflows", "Innovation", "Startups", "Tech for Social Impact", "Product Ideation"]
   }
 ];
 
 export const experience = [
   {
     title: "Software Developer",
-    company: "Team Freelance (Team A.I.Con)",
+    company: "Symph Inc.",
+    period: "June 2026 - Present",
+    description: "Contributed as an Android mobile and web developer for Squibly Mobile App 1.0, building responsive screens, implementing new functionality, and supporting its successful deployment. Developed cross-platform applications using React Native, React, Next.js, and Tailwind CSS. Integrated Firebase, REST APIs, RevenueCat, and Google Play Billing, while leveraging AI agents and Model Context Protocol (MCP)."
+  },
+  {
+    title: "Software Developer",
+    company: "Team Freelance",
     period: "January 2026 - Present",
-    description: "Contributing to AI and software engineering projects. Building full-stack apps using React, Django, and Spring Boot. Integrated AI/ML features improving inference efficiency by 20% and reducing latency by 30%."
+    description: "Developed and integrated full-stack applications using React, Django, and Spring Boot, reducing API latency by 30%. Implemented AI and machine learning features using Python, TensorFlow, LangChain, and LangGraph, decreasing processing time by 25% and improving model inference efficiency by 20%."
   },
   {
     title: "Computer Science Student",
@@ -284,7 +331,7 @@ export const education = [
     school: "Cebu Institute of Technology - University",
     degree: "BS Computer Science",
     period: "Expected June 2027",
-    awards: ["Academic Achiever", "College Scholar", "CHED Merit Scholar"],
-    courses: ["Intelligent Systems", "Software Engineering", "Data Analytics"]
+    awards: ["Academic Achiever", "Gear Awardee", "CHED Merit Scholar"],
+    courses: ["Intelligent Systems", "Software Engineering", "Applications Development"]
   }
 ];

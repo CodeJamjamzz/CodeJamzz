@@ -21,21 +21,6 @@ const About = () => {
             {personalInfo.about}
           </p>
 
-          <div className="flex justify-center mb-16">
-            <motion.a
-              href={personalInfo.datacamp}
-              target="_blank"
-              rel="noreferrer"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-neon-purple to-neon-blue text-white font-bold shadow-lg shadow-neon-purple/20 group"
-            >
-              <Brain className="w-5 h-5 group-hover:rotate-12 transition-transform" />
-              <span>View DataCamp Portfolio</span>
-              <ExternalLink className="w-4 h-4 opacity-70" />
-            </motion.a>
-          </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
             <motion.div 
               whileHover={{ y: -5 }}

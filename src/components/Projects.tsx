@@ -92,7 +92,7 @@ const Projects = () => {
                       href={project.github} 
                       target="_blank" 
                       rel="noreferrer" 
-                      className="w-8 h-8 rounded-full glass border-black/10 flex items-center justify-center text-black/70 hover:bg-neon-purple/20 transition-colors backdrop-blur-md"
+                      className="w-8 h-8 rounded-full bg-black/60 border border-white/10 flex items-center justify-center text-white/90 hover:bg-neon-purple/50 transition-colors backdrop-blur-md"
                     >
                       <Github className="w-4 h-4" />
                     </motion.a>
@@ -102,7 +102,7 @@ const Projects = () => {
                       href={project.demo} 
                       target="_blank" 
                       rel="noreferrer" 
-                      className="w-8 h-8 rounded-full glass border-black/10 flex items-center justify-center text-black/70 hover:bg-neon-blue/20 transition-colors backdrop-blur-md"
+                      className="w-8 h-8 rounded-full bg-black/60 border border-white/10 flex items-center justify-center text-white/90 hover:bg-neon-blue/50 transition-colors backdrop-blur-md"
                     >
                       <ExternalLink className="w-4 h-4" />
                     </motion.a>
