@@ -307,7 +307,7 @@ export const skills = [
 
 export const experience = [
   {
-    title: "Software Developer",
+    title: "Software Developer Intern",
     company: "Symph Inc.",
     period: "June 2026 - Present",
     description: "Contributed as an Android mobile and web developer for Squibly Mobile App 1.0, building responsive screens, implementing new functionality, and supporting its successful deployment. Developed cross-platform applications using React Native, React, Next.js, and Tailwind CSS. Integrated Firebase, REST APIs, RevenueCat, and Google Play Billing, while leveraging AI agents and Model Context Protocol (MCP)."
